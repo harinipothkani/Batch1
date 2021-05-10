@@ -1,7 +1,7 @@
 ul{
     list-style-type: none;
     display: flex;
-    padding: 8px;
+    padding: 5px;
     background-color: black;
     justify-content: flex-end;
     
@@ -18,14 +18,4 @@ a{
 }        
 .active{
     background-color: greenyellow;
-}
-a{
-    text-decoration: none;
-    border: 1px solid orange;
-    margin: 5px;
-    padding: 5px;
-    color: white;
-}
-a:hover{
-    background-color: yellowgreen;
 }
