@@ -10,7 +10,7 @@
         ul{
     list-style-type: none;
     display: flex;
-    padding: 8px;
+    padding: 5px;
     background-color: black;
     justify-content: flex-end;
     
@@ -44,7 +44,29 @@ a{
             </li>
     
         <h1>ContactUs</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, distinctio rem consectetur autem aperiam dolor corrupti itaque tempore perspiciatis vitae ipsum ducimus alias molestias officiis maiores numquam saepe repellendus, a animi laborum, dolorum consequatur! Quis unde omnis, nulla iusto sit earum rerum dolorum reprehenderit harum ea, exercitationem voluptates quidem reiciendis.</p>
+    <fieldset>
+        <legend align="center">Registration Details</legend>
+        <form>
+            <div><label for="a">username</label></div>
+            <input type="text" placeholder="enter username" name="user" id="a">
+            <div><label for="b">password</label></div>
+            <input type="password" placeholder="password" name="password" id="b">
+            <div><label for="">DOB</label></div>
+            <input type="date" name="DOB" >
+            <div><label for="">mobilenumber</label></div>
+            <input type="text"  name="mob" id="" pattern="[0-9]{10} "  required>
+            
+            <div><label for="">upload the file</label></div>
+            <input type="file" name="file" id="" accept="pdf" required>
+            <div><label for="Gender"></label></div>
+            <input type="radio" name="abc" id="">M
+            <input type="radio" name="abc" id="">F
+            <input type=" submit" value="login">
+
+        </form>
+        
+
+</fieldset>   
 
     
 </body>
